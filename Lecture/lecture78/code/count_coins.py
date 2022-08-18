@@ -24,13 +24,13 @@ if __name__ == '__main__':
     plt.show()
 
     # 膨胀
-    se1 = np.ones((13,13))
+    se1 = np.ones((13, 13))
     ima_binary = ndi.binary_dilation(ima_binary, se1)
     plt.imshow(ima_binary, cmap='gray')
     plt.show()
 
     # 腐蚀
-    se2 = np.ones((61,61))
+    se2 = np.ones((56, 56))
     ima_binary = ndi.binary_erosion(ima_binary, se2)
     plt.imshow(ima_binary, cmap='gray')
     plt.show()
