@@ -16,6 +16,7 @@ def pre_process():
     ima_binary[:, 560:] = 0
 
 if __name__ == '__main__':
+
     ima = io.imread('coins.png')
     # 预处理
     pre_process()
