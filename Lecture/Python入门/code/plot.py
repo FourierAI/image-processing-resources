@@ -11,14 +11,14 @@ plt.imshow(im_gray, cmap='gray')
 plt.show()
 
 # 子图显示
-plt.figure()
-plt.subplot(1,2,1)
-plt.title('color')
-plt.imshow(im_color)
-
-plt.subplot(1,2,2)
-plt.title('gray')
-plt.imshow(im_gray, cmap='gray')
-
-plt.savefig('test')
-plt.show()
+# plt.figure()
+# plt.subplot(1,2,1)
+# plt.title('color')
+# plt.imshow(im_color)
+#
+# plt.subplot(1,2,2)
+# plt.title('gray')
+# plt.imshow(im_gray, cmap='gray')
+#
+# plt.savefig('test')
+# plt.show()

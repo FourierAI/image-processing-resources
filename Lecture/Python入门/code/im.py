@@ -5,11 +5,11 @@ import numpy as np
 im_color = io.imread('lenna512color.bmp')
 im_gray = io.imread('lenna512.bmp')
 
-print(im_color.shape)
-print(im_gray.shape)
+# print(im_color.shape)
+# print(im_gray.shape)
 
 # image 的灰度范围 0-255 或者 0-1
-
+#
 # im_gray = im_gray / 255
 # print(im_gray)
 # plt.imshow(im_gray, cmap='gray')

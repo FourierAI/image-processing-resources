@@ -1,21 +1,22 @@
-# 向量化操作
-arr_test = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-
-for i in range(len(arr_test)):
-    for j in range(len(arr_test)):
-        arr_test[i][j] = arr_test[i][j] + 1
-
-print(arr_test)
-
+# # 向量化操作
+# arr_test = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+#
+# for i in range(len(arr_test)):
+#     for j in range(len(arr_test)):
+#         arr_test[i][j] = arr_test[i][j] + 1
+#
+# print(arr_test)
+#
 import numpy as np
-
-arr_test = np.array(arr_test)
-arr_test  = arr_test + 1
-print(arr_test)
+#
+# arr_test = np.array(arr_test)
+# arr_test  = arr_test * 10
+# print(arr_test)
 
 # 求一个序列的sin波形 (采样频率)
 
-# X = np.arange(0, 2*np.pi, 0.1)
+# X = np.arange(0, 2*np.pi, 1)
+# # print(X)
 # Y = np.sin(X)
 #
 # print(X)
