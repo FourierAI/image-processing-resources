@@ -2,7 +2,7 @@ import numpy as np
 from skimage import io
 
 mu = 0
-sigma = 100
+sigma = 50
 
 
 im = io.imread('lenna512.bmp')
@@ -15,4 +15,9 @@ plt.show()
 
 im_noise = im + noise
 plt.imshow(im_noise, cmap='gray')
+plt.show()
+
+import matplotlib.pyplot as plt
+
+plt.hist(im_noise.flatten(),bins=256,density=True)
 plt.show()

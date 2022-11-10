@@ -19,7 +19,7 @@ for i in range(n):
 image_h = abs(image_h)
 
 theshold = 0.1
-image_h = image_h > theshold
+# image_h = image_h > theshold
 plt.imshow(image_h, cmap='gray')
 plt.title('vertical')
 plt.show()
@@ -34,7 +34,7 @@ for i in range(1, n-1):
         image_v[i][j] = np.sum(image[i-1:i+2, j].reshape(-1, 1)*kernel_v)
 
 image_v = abs(image_v)
-image_v = image_v > theshold
+# image_v = image_v > theshold
 
 plt.imshow(image_v, cmap='gray')
 plt.title('horizontal')
